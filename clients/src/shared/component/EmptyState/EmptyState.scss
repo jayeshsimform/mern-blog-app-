@@ -1,0 +1,43 @@
+.empty-state {
+    max-width: 750px;
+    margin: 40px auto;
+    background: #ffffff;
+    box-shadow: 1px 2px 10px #e1e3ec;
+    border-radius: 4px;
+
+    &__content {
+        padding: 48px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .empty-state__icon {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            border-radius: 200px;
+            justify-content: center;
+            background-color: #f7fafc;
+            box-shadow: 0px 2px 1px #e1e3ec;
+
+            img {
+                width: 170px;
+            }
+        }
+
+        .empty-state__message {
+            color: var(--pitch);
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-top: 0.85rem;
+            text-align: center;
+        }
+
+        .empty-state__help {
+            color: #000;
+            font-size: 0.875rem;
+            text-align: center;
+        }
+    }
+}

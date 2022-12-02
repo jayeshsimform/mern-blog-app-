@@ -1,0 +1,16 @@
+.like_img,
+.note {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+.trash {
+    img {
+        margin: 0 !important;
+        cursor: pointer;
+        height: 20px !important;
+        width: 20px !important ;
+    }
+}

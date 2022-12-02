@@ -1,0 +1,54 @@
+.input-container {
+  width: 100%;
+  margin-bottom: 25px;
+  position: relative;
+  input,
+  textarea {
+    width: 100%;
+    min-height: 40px;
+    font-size: 16px;
+    transition: 0.6s;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid hsl(234, 12%, 34%);
+    }
+    &:focus ~ label {
+      top: -14px;
+      font-size: 12px;
+    }
+    &:valid ~ label {
+      top: -14px;
+      font-size: 12px;
+    }
+  }
+  label {
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 300ms ease all;
+  }
+
+  .error-text {
+    color: hsl(0, 78%, 62%);
+  }
+  .bottom-0 {
+    bottom: 0;
+  }
+}
+
+.file-container {
+  width: 100%;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.group {
+  position: relative;
+  margin: 45px 0;
+}
