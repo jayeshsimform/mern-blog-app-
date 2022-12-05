@@ -8,8 +8,7 @@ export const useDeletePost = (cb, setError) => {
 
     let {
         isLoading,
-        sendRequest,
-        clearError
+        sendRequest
     } = useHttpClient();
 
     const onDeletePlaceHandler = async () => {

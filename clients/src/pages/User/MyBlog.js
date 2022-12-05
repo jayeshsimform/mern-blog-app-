@@ -40,6 +40,7 @@ const MyBlog = () => {
         }
         catch (err) { }
 
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     useEffect(() => {

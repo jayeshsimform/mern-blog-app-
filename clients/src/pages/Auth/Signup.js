@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useForm, useHttpClient } from '../../shared/hooks/';
-import { PASSWORD_COMPARE, validate, VALIDATOR_EMAIL, VALIDATOR_MINLENGTH, VALIDATOR_REQUIRE } from '../../shared/utils/validators';
+import { PASSWORD_COMPARE, VALIDATOR_EMAIL, VALIDATOR_MINLENGTH, VALIDATOR_REQUIRE } from '../../shared/utils/validators';
 import Input from '../../shared/component/input/input';
 import ImageUpload from '../../shared/component/ImageUpload/ImageUpload';
 import Button from '../../shared/component/Button/Button';
