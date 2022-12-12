@@ -12,6 +12,15 @@ const EmptyState = () => {
                 <div className="empty-state__help">
                     Add a new record by simpley clicking the button on top right side.
                 </div>
+                <a href="https://www.geeksforgeeks.org/how-to-open-url-in-new-tab-using-javascript/"
+
+                    onClick={(e) => {
+                        e.preventDefault()
+                        window.open('pages.html');
+                        window.focus()
+                    }}
+                >test</a>
+
             </div>
         </div>
     );

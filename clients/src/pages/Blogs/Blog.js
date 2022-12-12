@@ -8,6 +8,7 @@ import Snackbar from '../../shared/component/Snackbar/Snackbar';
 import LikeUnlike from '../../shared/component/LikeUnlike/LikeUnlike';
 import UserWidget from './component/UserWidget';
 import Note from '../../images/note.png';
+import Chat from '../Chat/chat';
 
 const Blog = () => {
     const [blog, setBlog] = useState();
@@ -126,6 +127,7 @@ const Blog = () => {
                         </div>
                         <div className='col-lg-4 '>
                             <UserWidget user={blog?.userId} />
+                            <Chat user={blog?.userId} />
                         </div>
                     </div>
                 }

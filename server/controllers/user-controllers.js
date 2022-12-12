@@ -357,7 +357,7 @@ const forgotPassword = async (req, res, next) => {
             return next(error);
         }
     }
-    res.status(200).json({ message: 'working' })
+    res.status(200).json({ message: 'An Email sent to your account please verify' })
 }
 
 const updatePassword = async (req, res, next) => {

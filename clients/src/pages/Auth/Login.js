@@ -136,7 +136,7 @@ const Login = () => {
                     footerClass="place-item__modal-actions"
                     footer={<>
                         <Button disabled={isLoading} inverse onClick={handleForgot}>Cancel</Button>
-                        <Button disabled={isLoading || !formState.isValid} danger onClick={forgotPassword}>Send</Button>
+                        <Button danger onClick={forgotPassword}>Send</Button>
                     </>}>
                     <div className='forgot-wrap'>
                         <Input
