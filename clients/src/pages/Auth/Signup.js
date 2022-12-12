@@ -8,7 +8,7 @@ import Button from '../../shared/component/Button/Button';
 import Snackbar from '../../shared/component/Snackbar/Snackbar';
 import Loader from '../../shared/component/Loader/Loader';
 
-
+//Adding for demo
 const Signup = () => {
     const [formState, inputHandler] = useForm(
         {
